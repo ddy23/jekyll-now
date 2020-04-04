@@ -1,14 +1,17 @@
 ---
 layout: post
-title: 00000 
+title: SETUP ESP8266 ARDUINO IDE 
 ---
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+Source : [Getting Started with NodeMCU using Arduino IDE](https://www.electronicwings.com/nodemcu/getting-started-with-nodemcu-using-arduino-ide) 
 
+**Buka Preferences :**
 
-when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+![_config.yml]({{ site.baseurl }}/images/esp8266/arduino_preference.png)
 
+**Masukan URL berikut pada "Additional Boards Manager URLs"**
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+![_config.yml]({{ site.baseurl }}/images/esp8266/arduino_preference_boardmanagers.png)
+
